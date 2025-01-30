@@ -67,7 +67,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "petfood.urls"
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Your React frontend URL
+    "https://petfood-sand.vercel.app/",  # Your React frontend URL
 ]
 TEMPLATES = [
     {
