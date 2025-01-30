@@ -74,7 +74,7 @@ class offerProduct(APIView):
 
     def get(self, request):
         try:
-            products = Products.objects.get(id=2)
+            products = Products.objects.get(id=25)
             print(products)
         except:
             return Response("Invalid product")
